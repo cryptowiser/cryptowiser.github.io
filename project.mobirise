@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "cryptowise",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -26,7 +26,7 @@
     "versionFirst": "4.8.1",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 6,
+    "uniqCompNum": 10,
     "versionPublish": "4.8.1"
   },
   "pages": {
@@ -56,13 +56,15 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif"
             },
             ".link": {
-              "font-size": "0.875rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -139,6 +141,109 @@
           ],
           "_name": "menu",
           "_anchor": "menu-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "countdown": "2018/08/31",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.75
+          },
+          "title": "CryptoWise kommer snart!",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a, rem accusantium recusandae beatae. Eos quae sint minus dolorum facere, iure illum veritatis harum minima quod voluptatibus culpa tenetur eveniet enim. Natus, id cupiditate aperiam obcaecati incidunt nam minus accusantium libero officia expedita dignissimos optio, quis, minima quibusdam esse saepe!",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "countdown1",
+          "_anchor": "countdown1-9"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "20px",
+              "margin-top": "0"
+            },
+            "P": {
+              "color": "#f39c12"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bitcoin-2546741-960-720-128x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "Private policy",
+          "titled2": "Terms & Conditions",
+          "titled3": "Copyright Notifications",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2018 CryptoWise.se",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer3",
+          "_anchor": "footer3-5"
         }
       ]
     },
@@ -253,35 +358,6 @@
           ],
           "_name": "menu",
           "_anchor": "menu-3"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "countdown": "2018/08/31",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#ecf0f1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#ecf0f1",
-            "overlayOpacity": 0.75
-          },
-          "title": "CryptoWise kommer snart!",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci a, rem accusantium recusandae beatae. Eos quae sint minus dolorum facere, iure illum veritatis harum minima quod voluptatibus culpa tenetur eveniet enim. Natus, id cupiditate aperiam obcaecati incidunt nam minus accusantium libero officia expedita dignissimos optio, quis, minima quibusdam esse saepe!",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "countdown1",
-          "_anchor": "countdown1-4"
         },
         {
           "_styles": {
